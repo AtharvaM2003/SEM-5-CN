@@ -1,6 +1,6 @@
 import java.util.Scanner;
-
-public class IPAddressInfo {
+import java.util.Arrays;
+public class subnet {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
