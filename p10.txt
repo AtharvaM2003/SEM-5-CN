@@ -1,0 +1,43 @@
+Studying the SSL/TLS (Secure Sockets Layer/Transport Layer Security) protocol by capturing packets using Wireshark while visiting SSL-secured websites is a useful exercise to understand the encryption and security features in place. Here are the steps to perform this task:
+
+Install Wireshark:
+
+1.Download and install Wireshark from the official website (https://www.wireshark.org/download.html).
+Prepare Your Environment:
+
+2.Ensure that your computer is connected to the network where you can access SSL-secured websites. This could be your home or a public network.
+Launch Wireshark:
+
+3.Open Wireshark. Depending on your operating system, you may need administrative or superuser privileges to capture packets.
+Start Capturing Packets:
+
+4.Select the network interface you want to capture packets from.
+Click the "Start" button to begin capturing packets.
+Visit an SSL-Secured Website:
+
+5.Open your web browser and visit an SSL-secured website. You can choose a banking, e-commerce, or any other website with HTTPS (e.g., https://www.google.com, https://www.amazon.com, or your online banking portal).
+Analyze SSL/TLS Packets:
+
+6.While visiting the website, Wireshark will capture packets exchanged between your computer and the web server.
+Use Wireshark's filters to narrow down the captured packets to only SSL/TLS packets. You can use the display filter "tls" to do this.
+You will see packets related to the SSL handshake, encryption, and secure data transfer.
+Inspect SSL Handshake:
+
+7.Look for the SSL handshake process in the captured packets. This is where the client and server negotiate encryption and establish a secure connection.
+You can expand SSL packets to view details like the cipher suite, version, and certificate information.
+View Encrypted Data:
+
+8.SSL/TLS encrypts the actual data transfer, so you won't be able to see the contents of the web pages or data exchanged. You will see encrypted data in the packets.
+Observe Certificate Exchanges:
+
+9.You can also view the SSL certificates exchanged during the handshake. These certificates are used to verify the identity of the server.
+Stop Capturing Packets:
+
+10.After you've captured the necessary packets and learned about the SSL/TLS handshake, stop the packet capture in Wireshark.
+Analysis:
+
+11.Review the captured SSL packets, and consider researching the details of the SSL/TLS protocol to better understand the encryption and security mechanisms in place.
+Practice Safe and Legal Ethical Hacking:
+
+Always perform such packet capturing on networks and websites you have the right to access. Unauthorized interception of network traffic is illegal and unethical.
+Please note that capturing SSL/TLS packets on a network may raise privacy and legal concerns. It's essential to comply with relevant laws and regulations, and consider ethical implications when studying network traffic.
